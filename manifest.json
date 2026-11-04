@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Mis Links · Contenedores",
+  "version": "1.0.0",
+  "description": "Tus enlaces organizados en contenedores. Copias TXT a pedido.",
+  "permissions": [
+    "storage",
+    "downloads"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Abrir Mis Links",
+    "default_popup": "index.html"
+  }
+}

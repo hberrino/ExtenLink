@@ -1,0 +1,27 @@
+MIS LINKS 1.0
+
+INSTALAR
+1. Extraé el ZIP en una carpeta que vayas a conservar.
+2. Abrí chrome://extensions y activá Modo de desarrollador.
+3. Pulsá Cargar descomprimida y seleccioná la carpeta MisLinks que contiene manifest.json.
+4. Fijá su icono desde el menú de extensiones.
+
+USAR
++ de arriba: crear un contenedor.
+Selector: elegir un contenedor.
++ junto a Enlaces: agregar nombre, link y referencia; pulsá Guardar.
+Nombre o Ir: abrir el enlace en una pestaña nueva.
+Lápiz: editar (ahí podés ver y modificar la URL).
+Tachito: eliminar con confirmación.
+Descargar copia: TXT del contenedor elegido.
+Menú de tres puntos: renombrar/eliminar contenedor, descargar todo o importar copia.
+
+La URL no se muestra en la lista. Se admite http y https; si no escribís el
+protocolo se completa https://. Para intranet con HTTP escribí http:// explícitamente.
+Las copias solo se generan al pedirlas. El TXT incluye los enlaces completos.
+La importación agrega contenedores sin reemplazar los existentes.
+
+Los datos se guardan en este perfil de Chrome, sin servidor ni sincronización.
+Cerrar Chrome no los borra. Desinstalar la extensión elimina sus datos locales.
+Conservá la carpeta de instalación y tus copias TXT.
+Esta extensión funciona separada de Mis Claves.
